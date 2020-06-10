@@ -30,7 +30,7 @@
 		<distributionManagement>
   <snapshotRepository>
     <id>artifactory</id>
-    <url>http://13.127.150.66:8082/artifactory/libs-snapshot-local</url>
+    <url>http://13.127.150.66:8082/artifactory/libs-release-local</url>
   </snapshotRepository>
 </distributionManagement>
 
