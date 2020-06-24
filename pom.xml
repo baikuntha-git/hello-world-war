@@ -29,8 +29,8 @@
 
 		<distributionManagement>
   <snapshotRepository>
-    <id>artifactory</id>
-    <url>http://15.206.151.103:8082/artifactory/my-artifact</url>
+    <id>nexus</id>
+    <url>http://13.233.104.195:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
 </distributionManagement>
 
