@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Vanguard!</title>
+<title>Hello all!</title>
 </head>
 <body>
         <br>
