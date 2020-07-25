@@ -1,13 +1,14 @@
 <html>
 <head>
-<title>Hello World!</title>
+<title>Vanguard!</title>
 </head>
 <body>
-	<h1>Hello World!</h1>
-	<p>
-		It is now
-		<%= new java.util.Date() %></p>
-	<p>
-		You are coming from 
-		<%= request.getRemoteAddr()  %></p>
+        <br>
+        <h1 align="left" style="color:black"> Hi, Welcome to ABC BANK.<h1>
+        <h2 align="center" style="color:black"> This is a Team Demo on High_Availability archetecture<h2>
+                        <h2>You requested the load balancer dns which IP Address is <%= request.getRemoteAddr() %> </h2>
+			<h1 align="center" style="color:blue">But now you are routed to server's IP <br></h1> <h1 align="center" style="color:red"> <%= request.getLocalAddr() %> </h1>
+        <h1 align="center" style="color:blue"> Next request will be landed to another server </h1>
+
+        
 </body>
